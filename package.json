@@ -1,0 +1,10 @@
+{
+  "name": "sticky-identity",
+  "description": "Maintain consistent object identity when using a sticky datastore "
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test/**/*.js"
+  }
+}
