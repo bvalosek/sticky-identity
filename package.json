@@ -1,13 +1,12 @@
 {
   "name": "sticky-identity",
-  "description": "Maintain consistent object identity when using a sticky datastore",
+  "description": "",
   "author": {
     "name": "Brandon Valosek",
     "email": "bvalosek@gmail.com",
     "url": "http://bvalosek.com"
   },
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "tape ./test/**/*.js"
