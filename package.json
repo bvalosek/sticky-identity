@@ -1,6 +1,12 @@
 {
   "name": "sticky-identity",
-  "description": "",
+  "description": "Transformware that maintains consistent object identity when using a sticky datastore.",
+  "keywords": [
+    "sticky",
+    "datastore",
+    "identity",
+    "transformware"
+  ],
   "author": {
     "name": "Brandon Valosek",
     "email": "bvalosek@gmail.com",
