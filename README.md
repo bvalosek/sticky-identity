@@ -37,7 +37,7 @@ db.add(User)(user)
     return db.get(User)(user.id);
   })
   .then(function(u) {
-    u === user;
+    u === user; // true
   });
 ```
 
