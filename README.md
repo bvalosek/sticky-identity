@@ -26,6 +26,21 @@ var identity = require('sticky-identity');
 db.use(User, identity());
 ```
 
+Model identity is consistent now across all calls.
+
+```javascript
+var user = new User();
+user.email = 'awesome@cool.net';
+db.add(User)(user)
+  .then(function(u) {
+    u === user; // true
+    return db.get(User)(user.id);
+  })
+  .then(function(u) {
+    u === user;
+  });
+```
+
 Identity is checked via the `id` parameter by default, but can be determined by
 any string-like return value from a function argument:
 
